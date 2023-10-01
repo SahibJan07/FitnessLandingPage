@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Pathway+Extreme:ital,wght@1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+/* Center items vertically and horizontally within a specific div */
+.topleft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* This helps center text within the div */
+}
+
+
+.topright{
+    width: 50%;
+    height: 50vh;
+}
+
+.section1{
+    width: 50%;
+    height: 50vh;
+}
+
+.logo{
+    font-size: 1.8rem;
+}
